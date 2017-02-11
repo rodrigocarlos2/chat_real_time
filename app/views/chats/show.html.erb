@@ -2,13 +2,17 @@
   <h1 class="title">Central de Messagens</h1>
   <br>
 
-  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %> 
+  <%= link_to('Logout', destroy_user_session_path, :method => :delete, class: "ui button") %> 
   
-  <div id="messages">
-    <%= render @messages %>
-  </div>
+  <br>
+  <br>
 
   <form>
     <input type="text" data-behavior="chat_speaker" placeholder=" Diga alguma coisa :) ">
   </form>
+
+  <div id="messages">
+    <%= render @messages %>
+  </div>
+  
 </div>
