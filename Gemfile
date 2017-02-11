@@ -11,6 +11,7 @@ gem 'less-rails'
 gem 'autoprefixer-rails'
 gem 'semantic-ui-rails'
 
+gem "cis_rails_chat"
 
 gem 'devise'
 # Use Puma as the app server

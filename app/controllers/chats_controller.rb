@@ -5,4 +5,5 @@ class ChatsController < ApplicationController
   def show
     @messages = Message.last(8)
   end
+
 end
