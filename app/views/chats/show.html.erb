@@ -1,5 +1,9 @@
 <div align="center" class="container">
-  <h1 class="title">Bate Papo</h1>
+  <h1 class="title">Central de Messagens</h1>
+  <br>
+
+  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %> 
+  
   <div id="messages">
     <%= render @messages %>
   </div>
